@@ -1,0 +1,73 @@
+.overview-main-container{
+    width: 100%;
+/* padding: 16px 0px 0px 0px; */
+gap: 24px;
+border-radius: 12px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+border: 2px solid #F2F4F7;
+padding:15px;
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+
+}
+.overview-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.overview-download-container{
+display: flex;
+align-items: center;
+padding: 4px 8px 4px 8px;
+gap: 8px;
+opacity: 0px;
+
+}
+
+.overview-heading{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Inter;
+}
+.barcharts-button-container{
+ 
+    display: flex;
+    align-items: center;
+    width: 100%;
+   max-width:200px;
+   /* width: Fixed (793px)px;
+height: Hug (455.51px)px;
+top: 350px;
+left: 265px; */
+padding:10px;   
+gap: 24px;
+border-radius:10px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+
+}
+.barchrat-main-container{
+    margin-top: 20px;
+}
+.barcharts-monthly-button{
+   cursor: pointer;
+   background-color: transparent;
+   border: 0px solid ;
+opacity: 0px;
+color:#98A2B3;
+
+border-radius: 5px;
+padding:10px 12px 10px 12px;
+}
+.barcharts-yearly-button{
+    cursor: pointer;
+    background-color: #F1EBF9;
+    
+    border: 0px solid ;
+ opacity: 0px;
+ color:#1D2939;
+ border-radius: 5px;
+ padding:10px 15px 10px 15px;
+}

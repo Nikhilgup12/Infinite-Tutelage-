@@ -1,0 +1,121 @@
+.dashboard-main-container{
+    background-color: #9B76D6;
+    width: 100%;
+    max-width:220px;
+    flex-grow: 0;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+padding: 32px 0px 32px 0px;
+gap: 194px;
+border: 0px 1px 0px 0px;
+opacity: 0px;
+/* width: Fixed (241px)px;
+height: Fixed (1,024px)px; */
+
+
+}
+@media  screen and (max-width:767px) {
+    .dashboard-main-container{
+        display: none;
+    }
+}
+.logo{
+    width: 100%;
+    max-width:132px;
+}
+.dashboard-content-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.dashboard-ul-container{
+    /* background-color: aqua; */
+    list-style: none;
+    padding-left:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:40px;
+    width: 100%;
+    /* padding:10px; */
+}
+.dashboard-list-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom:3px;
+padding: 12px 8px 12px 24px;
+gap: 12px;
+opacity: 0px;
+cursor: pointer;
+
+}
+.selected{
+    background: linear-gradient(90deg, rgba(190, 251, 122, 0) 42.53%, #BEFB7A 230.08%);
+    border-right: 3px solid #BEFB7A;
+    color:#BEFB7A;
+}
+.selected-icon{
+    color:#BEFB7A;
+}
+.selected-name{
+    color:#BEFB7A;
+}
+.dashboard-list-icon{
+    width: 100%;
+    max-width: 18px;
+}
+.dashboard-list-name{
+    font-family: Inter;
+    font-size:17px;
+    color:#ffffff;
+    /* padding-left: 10px; */
+}
+.dashboard-notification-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dashboard-horizontal-line{
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #BBA1E3
+}
+.dashboard-user-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: aqua; */
+    /* width: Fill (241px)px;
+height: Hug (68px)px; */
+padding: 12px 8px 12px 18px;
+gap: 12px;
+opacity: 0px;
+margin-top: 15px;
+
+}
+.dashboard-user-detail-container{
+    display: flex;
+    flex-direction: column;
+    /* padding-right: 50px; */
+    width: 100%;
+}
+.dashboard-username{
+    font-size: 16px;
+    font-family: Inter; 
+    font-weight: 500;
+    color:#ffffff;
+}
+.dashboard-useremail{
+    font-size: 14px;
+    font-family: Inter; 
+    font-weight:400;
+    color:#ffffff;
+}

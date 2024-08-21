@@ -28,7 +28,7 @@ class DashboardPage extends Component{
                         </button>
                         <input type="text" placeholder="Search..." className="search-input" />
                     </div>
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1723975519/notification-3-line_pk0iv3.png" /> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1723975519/notification-3-line_pk0iv3.png" alt="search"/> 
                     </div>
                     <div className="dashboard-overall-container">
                     <QuickLinks />

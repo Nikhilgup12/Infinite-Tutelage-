@@ -35,7 +35,7 @@ class OverView extends Component{
                 <div className="overview-container">
                     <h1 className="overview-heading"> Overview </h1>
                     <div className="overview-download-container">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1723977918/download-line_ezsabq.png" />
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1723977918/download-line_ezsabq.png" alt="download"/>
                         <p> Download Report </p>
                     </div>
                 </div>

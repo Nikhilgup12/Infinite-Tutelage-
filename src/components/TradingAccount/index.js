@@ -16,7 +16,7 @@ class TradingAccount extends Component{
                     </div>
                     <div className="trading-master-usd">
                         <h1 className="trading-master-usd-heading"> 0.00<span className="trading-span-usd"> usd </span></h1>
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1723981410/Vector_d9w5eg.png" />
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1723981410/Vector_d9w5eg.png" alt="trading" />
                     </div>
                 </div>
                 <div className="trading-master-container">
@@ -27,7 +27,7 @@ class TradingAccount extends Component{
                     </div>
                     <div className="trading-master-usd">
                     <h1 className="trading-master-usd-heading"> 0.00<span className="trading-span-usd"> usd </span></h1>
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1723981410/Vector_d9w5eg.png" />
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1723981410/Vector_d9w5eg.png" alt="trading" />
                     </div>
                 </div>
                 </div>

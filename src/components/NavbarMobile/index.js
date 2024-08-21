@@ -125,7 +125,7 @@ const NavbarMobile = props => {
                     {
                     noti.map((each)=>(
                         <li key={each.id} className="dashboard-list-container"> 
-                            <img src={each.image} alt={each.name} className="dashboard-list-icon"/> 
+                            <img src={each.image} alt={each.name} className="dashboard-list-icon" /> 
                             <h1 className="dashboard-list-name"> {each.name} </h1>
                         </li>
                     ))
